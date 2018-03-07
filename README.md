@@ -24,7 +24,7 @@
   ```
   Note #1: It will provide a dataset named **fullDataset.csv**.
 
-  Note #2: **readXY.py** ( This file will fetch **hotSpot.fasta** and **coldSpot.fasta**. )
+  Note #2: **readXY.py** ( This file will fetch data from **hotSpot.fasta** and **coldSpot.fasta**.files. )
 
 
 - **Features Selection :**
@@ -46,6 +46,7 @@
   user@machine:~$ python evaluation.py
   ```
   Note #1: It will provide test result from **testFASTA.fasta** file.
+  Note #2: readiRecX.py ( This file will fetch data from testFASTA.fasta file. )
 
 - **Run Machine Learning Classifiers :**
   ``` console
@@ -53,7 +54,7 @@
   ```
   Note #1: It will provides:
   - Classification results from **selectedDataset.csv** file.
-  - ROC Curve (**auROC.png**)
-  - Accuracy comparison via boxPlot. (**AccuracyBoxPlot.png**)
+  - Generate a ROC Curve (**auROC.png**)
+  - Generate an accuracy comparison via boxPlot. (**AccuracyBoxPlot.png**)
 
 
