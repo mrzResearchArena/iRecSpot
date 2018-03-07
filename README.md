@@ -24,7 +24,7 @@
   ```
   Note #1: It will provide a dataset named **fullDataset.csv**.
 
-  Note #2: **readXY.py** ( This file will fetch data from **hotSpot.fasta** and **coldSpot.fasta**.files. )
+  Note #2: **readXY.py** ( This file will fetch data from **hotSpot.fasta** and **coldSpot.fasta** files. )
 
 
 - **Features Selection :**
@@ -45,13 +45,25 @@
   ``` console
   user@machine:~$ python evaluation.py
   ```
+  Or, if you want to write results in a **.TXT** file then type:
+  ``` console
+  user@machine:~$ python evaluation.py > predictedResults.txt
+  # We can use any name.
+  ```
+  
   Note #1: It will provide test result from **testFASTA.fasta** file.
-  Note #2: readiRecX.py ( This file will fetch data from testFASTA.fasta file. )
+  
+  Note #2: readiRecX.py ( This file will fetch data from **testFASTA.fasta** file. )
 
 - **Run Machine Learning Classifiers :**
   ``` console
   user@machine:~$ python classifiers.py
   ```
+  Or, if you want to write results in a **.TXT** file then type:
+  ``` console
+  user@machine:~$ python classifiers.py > results.txt
+  ```
+  
   Note #1: It will provides:
   - Classification results from **selectedDataset.csv** file.
   - Generate a ROC Curve (**auROC.png**)
