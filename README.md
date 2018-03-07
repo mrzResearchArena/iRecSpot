@@ -39,7 +39,7 @@
   ``` console
   user@machine:~$ python modelDump.py
   ```
-  Note #1: It will provide a model named **iRecModelEF.pkl**.
+  Note #1: It will provide a model named **iRecSpotModel.pkl**.
 
 - **Test Dataset :**
   ``` console
