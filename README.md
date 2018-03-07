@@ -45,7 +45,7 @@
   ``` console
   user@machine:~$ python evaluation.py
   ```
-  Or, if you want to write results in a **.TXT** file then type:
+  Or, if we want to write results in a **.TXT** file then type:
   ``` console
   user@machine:~$ python evaluation.py > predictedResults.txt
   # We can use any name.
@@ -59,7 +59,7 @@
   ``` console
   user@machine:~$ python classifiers.py
   ```
-  Or, if you want to write results in a **.TXT** file then type:
+  Or, if we want to write results in a **.TXT** file then type:
   ``` console
   user@machine:~$ python classifiers.py > results.txt
   ```
