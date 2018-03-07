@@ -35,7 +35,7 @@
   Note #1: It will provide a dataset named **selectedDataset.csv**.
 
 
-- **Load Model :**
+- **Training Model :**
   ``` console
   user@machine:~$ python modelDump.py
   ```
@@ -52,7 +52,7 @@
   user@machine:~$ python classifiers.py
   ```
   Note #1: It will provides:
-  - Classification results from **dataset.csv** file.
+  - Classification results from **selectedDataset.csv** file.
   - ROC Curve (**auROC.png**)
   - Accuracy comparison via boxPlot. (**AccuracyBoxPlot.png**)
 
