@@ -1,0 +1,15 @@
+Please enter the stepSize:
+Test FASTA #1:
+1 to 200: predicted Type: None, probality 0.6183.
+201 to 400: predicted Type: hotspot, probality 0.9410.
+
+Test FASTA #2:
+1 to 200: predicted Type: hotspot, probality 0.8629.
+201 to 400: predicted Type: hotspot, probality 0.7334.
+
+Test FASTA #3:
+1 to 200: predicted Type: coldspot, probality 0.7721.
+201 to 400: predicted Type: None, probality 0.6704.
+401 to 600: predicted Type: None, probality 0.5924.
+
+[Note: If probability < 0.70 then predicted type is assign to 'None'.]
