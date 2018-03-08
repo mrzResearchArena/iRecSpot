@@ -1,0 +1,130 @@
+LogisticRegression
+Accuracy: 95.0456 %
+auROC: 0.985019
+auPR: 0.9870
+F1-score: 0.9458
+MCC: 0.9008
+Recall: 0.9477
+Sensitivity (+): 94.7699 %
+Specificity (-): 95.2797 %
+Confusion Matrix:
+[[545  27]
+ [ 25 453]]
+_______________________________________
+KNeighborsClassifier
+Accuracy: 82.7567 %
+auROC: 0.924210
+auPR: 0.9059
+F1-score: 0.7775
+MCC: 0.6696
+Recall: 0.6692
+Sensitivity (+): 66.9456 %
+Specificity (-): 95.9790 %
+Confusion Matrix:
+[[549  23]
+ [158 320]]
+_______________________________________
+DecisionTreeClassifier
+Accuracy: 73.2408 %
+auROC: 0.730296
+auPR: 0.6339
+F1-score: 0.7064
+MCC: 0.4613
+Recall: 0.7071
+Sensitivity (+): 70.7113 %
+Specificity (-): 75.3497 %
+Confusion Matrix:
+[[431 141]
+ [140 338]]
+_______________________________________
+GaussianNB
+Accuracy: 66.2799 %
+auROC: 0.710691
+auPR: 0.6006
+F1-score: 0.6978
+MCC: 0.3774
+Recall: 0.8557
+Sensitivity (+): 85.5649 %
+Specificity (-): 50.1748 %
+Confusion Matrix:
+[[287 285]
+ [ 69 409]]
+_______________________________________
+BaggingClassifier
+Accuracy: 82.1908 %
+auROC: 0.890778
+auPR: 0.8755
+F1-score: 0.7820
+MCC: 0.6492
+Recall: 0.7070
+Sensitivity (+): 70.7113 %
+Specificity (-): 91.7832 %
+Confusion Matrix:
+[[525  47]
+ [140 338]]
+_______________________________________
+RandomForestClassifier
+Accuracy: 80.7648 %
+auROC: 0.881811
+auPR: 0.8536
+F1-score: 0.7730
+MCC: 0.6133
+Recall: 0.7217
+Sensitivity (+): 72.1757 %
+Specificity (-): 87.9371 %
+Confusion Matrix:
+[[503  69]
+ [133 345]]
+_______________________________________
+AdaBoostClassifier
+Accuracy: 82.1898 %
+auROC: 0.905943
+auPR: 0.9072
+F1-score: 0.8029
+MCC: 0.6420
+Recall: 0.7991
+Sensitivity (+): 79.9163 %
+Specificity (-): 84.0909 %
+Confusion Matrix:
+[[481  91]
+ [ 96 382]]
+_______________________________________
+GradientBoostingClassifier
+Accuracy: 85.5161 %
+auROC: 0.922012
+auPR: 0.9267
+F1-score: 0.8342
+MCC: 0.7090
+Recall: 0.8034
+Sensitivity (+): 80.3347 %
+Specificity (-): 89.8601 %
+Confusion Matrix:
+[[514  58]
+ [ 94 384]]
+_______________________________________
+SVC
+Accuracy: 94.4778 %
+auROC: 0.985227
+auPR: 0.9891
+F1-score: 0.9365
+MCC: 0.8910
+Recall: 0.9017
+Sensitivity (+): 90.1674 %
+Specificity (-): 98.0769 %
+Confusion Matrix:
+[[561  11]
+ [ 47 431]]
+_______________________________________
+LinearDiscriminantAnalysis
+Accuracy: 84.5781 %
+auROC: 0.920126
+auPR: 0.8992
+F1-score: 0.8337
+MCC: 0.6925
+Recall: 0.8493
+Sensitivity (+): 84.9372 %
+Specificity (-): 84.2657 %
+Confusion Matrix:
+[[482  90]
+ [ 72 406]]
+_______________________________________
