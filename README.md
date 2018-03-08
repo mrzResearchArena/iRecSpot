@@ -22,7 +22,7 @@
   ```console
   user@machine:~$ python extractionFeatures.py
   ```
-  Note #1: It will provide a dataset named **fullDataset.csv**.
+  Note #1: It will provide a dataset named **fullDataset.csv** from FASTA sequences.
 
   Note #2: **readXY.py** ( This file will fetch data from **hotSpot.fasta** and **coldSpot.fasta** files. )
 
@@ -31,8 +31,7 @@
   ```console
   user@machine:~$ python selectionFeatures.py
   ```
-
-  Note #1: It will provide a dataset named **selectedDataset.csv**.
+  Note #1: It will provide a dataset named **selectedDataset.csv** from **fullDataset.csv**.
 
 
 - **Training Model :**
