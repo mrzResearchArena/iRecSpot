@@ -48,7 +48,9 @@
   Or, if we want to write results in a **.TXT** file then type:
   ``` console
   user@machine:~$ python evaluation.py > results.txt
-  # We can use any name.
+  200
+  # Input the stepSize (Here 200 is the dummy value.)
+  # We can use any name instead of results.txt
   ```
   Note #1: In this portion, the programme will ask the user the **stepSize**.
   - **stepSize** : Segmentation length for each testing FASTA.
@@ -65,6 +67,7 @@
   Or, if we want to write results in a **.TXT** file then type:
   ``` console
   user@machine:~$ python classifiers.py > classifiersResults.txt
+  # We can use any name instead of classifiersResults.txt
   ```
   
   Note #1: It will provides:
