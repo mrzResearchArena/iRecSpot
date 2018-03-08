@@ -59,6 +59,8 @@
   Note #2: It will provide test result from **testFASTA.fasta** file.
   
   Note #3: readiRecX.py ( This file will fetch data from **testFASTA.fasta** file. )
+  
+  Note #3: If probability < 0.70 then the predicted type is assigned to 'None'. Otherwise, assigned to 'hotspot' or 'coldspot' based on the training model.
 
 - **Run Machine Learning Classifiers :**
   ``` console
