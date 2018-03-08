@@ -23,7 +23,7 @@
   user@machine:~$ python extractionFeatures.py
   ```
   Note #1: It will provide a dataset named **fullDataset.csv** from FASTA sequences.
-  [fullDataset.csv](https://drive.google.com/file/d/1-DHKnHMcVDZATUYZ8BwQzdLUAWQJRxyg/)
+  ([fullDataset.csv](https://drive.google.com/file/d/1-DHKnHMcVDZATUYZ8BwQzdLUAWQJRxyg/))
 
   Note #2: **readXY.py** ( This file will fetch data from **hotSpot.fasta** and **coldSpot.fasta** files. )
 
