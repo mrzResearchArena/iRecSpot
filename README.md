@@ -46,7 +46,7 @@
   ```
   Or, if we want to write results in a **.TXT** file then type:
   ``` console
-  user@machine:~$ python evaluation.py > predictedResults.txt
+  user@machine:~$ python evaluation.py > results.txt
   # We can use any name.
   ```
   In this portion, the programme will ask the user the **stepSize**.
@@ -65,12 +65,11 @@
   ```
   Or, if we want to write results in a **.TXT** file then type:
   ``` console
-  user@machine:~$ python classifiers.py > results.txt
+  user@machine:~$ python classifiers.py > classifiersResults.txt
   ```
   
   Note #1: It will provides:
   - Classification results from **selectedDataset.csv** file.
   - Generate a ROC Curve (**auROC.png**)
   - Generate an accuracy comparison via boxPlot. (**AccuracyBoxPlot.png**)
-
 
