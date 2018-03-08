@@ -50,15 +50,13 @@
   user@machine:~$ python evaluation.py > results.txt
   # We can use any name.
   ```
-  In this portion, the programme will ask the user the **stepSize**.
+  Note #1: In this portion, the programme will ask the user the **stepSize**.
+  - **stepSize** : Segmentation length for each testing FASTA.
+  - **Recommended stepSize >= 200.**
   
-  **stepSize** : Segmentation length for each testing FASTA.
+  Note #2: It will provide test result from **testFASTA.fasta** file.
   
-  **Recommended stepSize >= 200.**
-  
-  Note #1: It will provide test result from **testFASTA.fasta** file.
-  
-  Note #2: readiRecX.py ( This file will fetch data from **testFASTA.fasta** file. )
+  Note #3: readiRecX.py ( This file will fetch data from **testFASTA.fasta** file. )
 
 - **Run Machine Learning Classifiers :**
   ``` console
