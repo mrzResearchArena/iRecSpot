@@ -49,6 +49,9 @@
   user@machine:~$ python evaluation.py > predictedResults.txt
   # We can use any name.
   ```
+  In this portion, the programme will ask the user the stepSize.
+  **stepSize :** Segmentation length for each testing FASTA.
+  **Recommended stepSize >= 200.**
   
   Note #1: It will provide test result from **testFASTA.fasta** file.
   
