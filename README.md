@@ -1,4 +1,3 @@
-<!---
 ## iRecSpot-EF: Effective Sequence Based Features for Recombination Hotspot Prediction
 
 ### Installation Process :
@@ -77,5 +76,4 @@
   - Classification results from **selectedDataset.csv** file.
   - Generate a ROC Curve (**auROC.png**)
   - Generate an accuracy comparison via boxPlot. (**AccuracyBoxPlot.png**)
-
--->
+  
