@@ -13,3 +13,5 @@ Test FASTA #3:
 401 to 600: predicted Type: None, probality 0.5924.
 
 [Note: If probability < 0.70 then predicted type is assign to 'None'.]
+
+----------------------------------------------------------------------
