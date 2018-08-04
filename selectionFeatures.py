@@ -12,7 +12,7 @@ import numpy as np
 
 
 # Step 01 : Load the dataset :
-iRec = 'fullDataset.csv' # 425
+iRec = 'dataset.csv' #
 D = pd.read_csv(iRec, header=None)  # Using pandas
 # ___________________________________________________________________________
 
