@@ -2,7 +2,7 @@ import numpy as np
 import itertools
 import readXY
 
-############################################################
+###########################################################
 
 m1 = list(itertools.product('ACGT', repeat=1))
 m2 = list(itertools.product('ACGT', repeat=2))
