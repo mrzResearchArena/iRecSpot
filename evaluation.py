@@ -1550,6 +1550,6 @@ for sequencesNumber, types, probabilities in zip(SequencesNumbers, Types, Probab
 
 print('[Note: If probability < 0.70 then predicted type is assign to \'None\'.]')
 
-###############################################################################################
+##############################################################################################
 
 
