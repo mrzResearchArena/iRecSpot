@@ -35,6 +35,7 @@ def pseudoKNC(x):
             # print(x.count(''.join(i)), end=',')
             t.append(x.count(''.join(i)))
     ### --- ###
+    
 
 def zCurve(x):
     ### Z-Curve ### total = 3
@@ -47,6 +48,7 @@ def zCurve(x):
 
 
 def gcContent(x):
+    ### --- ### total = 1
     A = x.count('A')
     C = x.count('C')
     G = x.count('G')
@@ -56,8 +58,9 @@ def gcContent(x):
     ### --- ###
 
 
-def cumulativeSkew(x):
 
+def cumulativeSkew(x):
+    ### --- ### total = 2
     A = x.count('A')
     C = x.count('C')
     G = x.count('G')
@@ -69,6 +72,19 @@ def cumulativeSkew(x):
     t.append(GCSkew)
     t.append(ATSkew)
     ### --- ###
+
+
+
+def atgcRatio(x):
+    ### --- ### total = 1
+    A = x.count('A')
+    C = x.count('C')
+    G = x.count('G')
+    T = x.count('T')
+
+    t.append((A + T) / (G + C))
+    ### --- ###
+
 
 
 def gapping1_1(x, g):
@@ -100,6 +116,7 @@ def gapping1_1(x, g):
             t.append(C)
 
     ### --- ###
+    
 
 def gapping1_2(x, g):
 
@@ -961,6 +978,7 @@ def generateFeatures(k, g, x, y):
     zCurve(x)
     gcContent(x)
     cumulativeSkew(x)
+    atgcRatio(x)
     # gapping1_(x, g)
     # gapping2_(x, g)
     # gapping3_(x, g)
