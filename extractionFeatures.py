@@ -17,11 +17,13 @@ def isValid(x):
             return 'Invalid'
     return 'Valid'
 
+
 def kmers(seq, k):
     v = []
     for i in range(len(seq) - k + 1):
         v.append(seq[i:i + k])
     return v
+
 
 def pseudoKNC(x):
     ### k-mer ###
@@ -42,6 +44,32 @@ def zCurve(x):
     t.append(x_); t.append(y_); t.append(z_)
     ### print('{},{},{}'.format(x_, y_, z_), end=',')
     ### --- ###
+
+
+def gcContent(x):
+    A = x.count('A')
+    C = x.count('C')
+    G = x.count('G')
+    T = x.count('T')
+
+    t.append((G + C) / (A + C + G + T) * 100.0)
+    ### --- ###
+
+
+def cumulativeSkew(x):
+
+    A = x.count('A')
+    C = x.count('C')
+    G = x.count('G')
+    T = x.count('T')
+
+    GCSkew = (G - C) / (G + C)
+    ATSkew = (A - T) / (A + T)
+
+    t.append(GCSkew)
+    t.append(ATSkew)
+    ### --- ###
+
 
 def gapping1_1(x, g):
     ### g-gap
@@ -931,6 +959,8 @@ def generateFeatures(k, g, x, y):
     ## begin newFeatures ##
     # pseudoKNC()
     zCurve(x)
+    gcContent(x)
+    cumulativeSkew(x)
     # gapping1_(x, g)
     # gapping2_(x, g)
     # gapping3_(x, g)
@@ -983,8 +1013,4 @@ if __name__ == '__main__':
     Y = T[:,-1]
 
     saveCSV(X,Y)
-
-
-
-
-
+    ############
